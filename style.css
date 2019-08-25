@@ -1,0 +1,66 @@
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.5;
+    background: #F2F2F2;
+    color: #323232
+}
+
+img{
+    max-width: 100%;
+}
+
+a {
+    color: #323232;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.container{
+    max-width: 960px;
+    margin: 40px auto;
+    padding: 32px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-gap: 20px;
+    padding: 24px 0;
+    border-bottom: 1px solid lightgrey;
+}
+
+section:last-child{
+    border-bottom: bold;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+img.avatar{
+    width:130px;
+}
+
+.my-name{
+    font-size: 48px;
+    line-height: 1;
+}
+
+.my-title{
+    font-size: 24px;
+    font-weight: 300;
+    color: #236fb2;
+}
